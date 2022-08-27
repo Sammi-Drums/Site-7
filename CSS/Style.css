@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+}
+.logo{
+    flex: 30%;
+    margin: 1%;
+    color: white;
+    z-index: 99;
+}
+.logo h1{
+
+}
+.NavBar{
+    display: flex;
+    background-image: url(../Images/stair-case-foyer-1646841.jpg);
+    background-position: center;
+    height: 400px;
+    /* background-color: black; */
+    border: 0px solid black;
+    box-shadow: 4px 4px 52px 6px orange;
+
+}
+.headright{
+    display: flex;
+    flex: 70%;
+    margin-left: 60%;
+    margin-top: -4%;
+  
+}
+.headright li{
+    list-style: none;
+    padding: 2%;
+}
+.headright li a{
+    text-decoration: none;
+    color: white;
+    z-index: 99;
+}
+.headright li a:hover{
+    text-decoration: underline;
+    color: orange;
+    font-size: large;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.575);
+    height: 400px;
+    width: 100%;
+    /* z-index: 0; */
+}
+.NavBody{
+    z-index: 99;
+    text-align: center;
+    color: white;
+    margin-top: -15%;
+}
+.line{
+    margin-top: .5%;
+    margin-right: 40%;
+    margin-left: 40%;
+    margin-bottom: .5%;
+    z-index: 99;
+}
+.res{
+    margin-top: .5%;
+    margin-bottom: 3%;
+}
+.btn button{
+    background-color: transparent;
+    color: orange;
+    border: 1px solid orange;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 3px;
+}
+.btn button:hover{
+    background-color: white;
+    color: orange;
+}
+.welcome h1:hover{
+    font-size: 43px;
+}
+.welcome h1{
+    font-size: 42px;
+}
+.container{
+    color: black;
+    margin-top: 7%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.toptitle{
+    display: flex;
+}
+.line1{
+    flex: 50%;
+}
+.line2{
+    flex: 50%;
+}
+.line1 hr{
+    width: 15%;
+    margin-top: -2%;
+    margin-left: 67%;
+}
+.line2 hr{
+    width: 15%;
+    margin-top: -2%;
+    margin-left: 18%;
+}
+.topic h2{
+    text-transform: uppercase;
+}
+.topic h2:hover{
+    font-size: 25px;
+}
+.cards{
+    display: flex;
+    margin-top: 1%;
+}
+.card1{
+    /* border: 1px solid black; */
+    padding: 15px;
+    border-bottom: 44%;
+}
+.card1 button{
+    border-radius: 90px;
+    width: 20%;
+    padding: 7%;
+    background-color: orange;
+    border-color: orange;
+   
+}
+.card1 button:hover{
+    background-color: white;
+    color: orange;
+} 
+.card1 h4{
+    text-align: center;
+    margin-top: 3%;
+     margin-bottom: 4%;
+}
+.card1 p{
+    text-align: justify;
+}
+.card2{
+    /* border: 1px solid black; */
+    padding: 15px;
+    border-bottom: 44%;
+}
+.card2 button{
+    border-radius: 90px;
+    width: 20%;
+    padding: 7%;
+    background-color: orange;
+    border-color: orange;
+   
+}
+.card2 button:hover{
+    background-color: white;
+    color: orange;
+} 
+.card2 h4{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+.card2 p{
+    text-align: justify;
+}
+.card3{
+    /* border: 1px solid black; */
+    padding: 15px;
+    border-bottom: 44%;
+}
+.card3 button{
+    border-radius: 120px;
+    width: 20%;
+    padding: 7%;
+    background-color: orange;
+    border-color: orange;
+   
+}
+.card3 button:hover{
+    background-color: white;
+    color: orange;
+} 
+.card3 h4{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+.card3 p{
+    text-align: justify;
+}
+.cards1{
+    display: flex;
+    margin-top: 1%;
+}
+.card11{
+    /* border: 1px solid black; */
+    padding: 15px;
+    border-bottom: 44%;
+}
+.card11 button{
+    border-radius: 90px;
+    width: 20%;
+    padding: 7%;
+    background-color: orange;
+    border-color: orange;
+   
+}
+.card11 button:hover{
+    background-color: white;
+    color: orange;
+} 
+.card11 h4{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+.card11 p{
+    text-align: justify;
+}
+.card21{
+    /* border: 1px solid black; */
+    padding: 15px;
+    border-bottom: 44%;
+}
+.card21 button{
+    border-radius: 90px;
+    width: 20%;
+    padding: 7%;
+    background-color: orange;
+    border-color: orange;
+   
+}
+.card21 button:hover{
+    background-color: white;
+    color: orange;
+} 
+.card21 h4{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+.card21 p{
+    text-align: justify;
+}
+.card31{
+    /* border: 1px solid black; */
+    padding: 15px;
+    border-bottom: 44%;
+}
+.card31 button{
+    border-radius: 120px;
+    width: 20%;
+    padding: 7%;
+    background-color: orange;
+    border-color: orange;
+   
+}
+.card31 button:hover{
+    background-color: white;
+    color: orange;
+} 
+.card31 h4{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+.card31 p{
+    text-align: justify;
+}
+.footerSection{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 5%;
+    padding: 5%;
+    background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.925), rgba(255, 166, 0, 0.822));
+    border: 0;
+}
+.Samm{
+    margin-left: 25%;
+}
+h3{
+    color: orange;
+    padding: 2%;
+    padding-left: 0;
+}
+h3:hover{
+    color: black;
+    font-size: 2vw;
+}
+.Samm p{
+    color: white;
+}
+.Production a{
+    color: white;
+    text-decoration: none;
+}
+.LINKs a{
+    color: white;
+    text-decoration: none;
+}
+.FasIcons p{
+    color: white;
+    text-decoration: none;
+}
+
+
+

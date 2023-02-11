@@ -266,6 +266,81 @@
     .card1 button{
         font-size: 2vw;
         width: 13vw;
+        margin-top: 2.8vh;
+    }
+    .card2 h4{
+        font-size: 3vw;
+    }
+    .card2 p{
+        font-size: 2vw;
+    }
+    .card2 button{
+        font-size: 2vw;
+        width: 13vw;
+        margin-top: 3.8vh;
+    }
+    .card2 img{
         margin-top: 1vh;
     }
+    .card3 h4{
+        font-size: 3vw;
+    }
+    .card3 p{
+        font-size: 2vw;
+    }
+    .card3 button{
+        font-size: 2vw;
+        width: 13vw;
+        margin-top: 1vh;
+    }
+    .card3 img{
+        margin-top: 1vh;
+    }
+    .card11 h4{
+        font-size: 3vw;
+    }
+    .card11 p{
+        font-size: 2vw;
+    }
+    .card11 button{
+        font-size: 2vw;
+        width: 13vw;
+        margin-top: 1vh;
+    }
+    .card21 h4{
+        font-size: 2vw;
+        font-weight: 900px;
+    }
+    .card21 p{
+        font-size: 2vw;
+        margin-top: 1vh;
+    }
+    .card21 button{
+        font-size: 2vw;
+        width: 13vw;
+        margin-top: 2.7vh;
+    }
+    .card31 h4{
+        font-size: 3vw;
+    }
+    .card31 p{
+        font-size: 2vw;
+    }
+    .card31 button{
+        font-size: 2vw;
+        width: 13vw;
+        margin-top: 1vh;
+    }
+}
+@media (max-width: 768px) {
+    .card2 h4{
+        margin-top: 1vh;
+    }
+    .card2 button{
+        margin-top: 5vh;
+    }
+    .card31 button{
+        margin-top: 2.2vh;
+    }
+    
 }

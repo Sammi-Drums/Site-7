@@ -169,11 +169,21 @@ h3:hover{
        font-size: 2.8vw;
 
    }
+   .NavBody{
+       margin-top: -12vh;
+   }
    .res p{
        font-size: 2vw;
    }
+   .btn button{
+       font-size: 2.2vw;
+       margin-top: -1vh;
+   }
    
-    
-  
+}
+@media (max-width: 768px) {
+    .NavBody{
+        margin-top: -14vh;
+    }
     
 }

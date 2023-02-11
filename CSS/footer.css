@@ -145,7 +145,11 @@ h3:hover{
 .FasIcons p:hover{
     color: black;
 }
-
+.copyWSection h2{
+    text-align: center;
+    color: white;
+}
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 @media (max-width: 1024px) {
     .NavBar{
         display: flex;
@@ -201,10 +205,7 @@ h3:hover{
     .FasIcons{
         margin-top: -15.9vh;
     }
-    .copyWSection{
-        text-align: center;
-        color: rgb(80, 49, 13);
-    }
+
     /* Working on the header now */
 
     
@@ -227,7 +228,20 @@ h3:hover{
     }
 }
 @media (max-width: 320px) {
-    
+    .NavBar{
+        margin-top: 0vh;
+    }
+    .welcome h1{
+        font-size: 7vw;
+        margin-bottom: 1vh;
+    }
+    .res p{
+        font-size: 4vw;
+    }
+    .btn button{
+        font-size: 4vw;
+        margin-top: .5vh
+    }
     
 }
 

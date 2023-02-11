@@ -85,7 +85,7 @@
     padding: 5%;
     background-color: orange;
     border-color: orange;
-   
+    margin-top: .5vh;
 }
 .card2 button:hover{
     background-color: white;
@@ -119,6 +119,7 @@
     padding: 5%;
     background-color: orange;
     border-color: orange;
+    margin-top: 1vh;
    
 }
 .card3 button:hover{
@@ -198,7 +199,7 @@
     padding: 5%;
     background-color: orange;
     border-color: orange;
-   
+    margin-top: 2vh;
 }
 .card21 button:hover{
     background-color: white;
@@ -232,7 +233,7 @@
     padding: 5%;
     background-color: orange;
     border-color: orange;
-   
+    margin-top: 2vh;
 }
 .card31 button:hover{
     background-color: white;
@@ -447,7 +448,12 @@
         padding: 2vw;
     }
 }
-
+@media (max-width: 320px) {
+    .topic{
+        margin-top: 6vh;
+    }
+    
+}
 
 
 

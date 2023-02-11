@@ -346,7 +346,9 @@
 }
 /* Mobile Large Screen View */
 @media (max-width: 425px) {
-    
+    .topic h2{
+        font-size: 6vw;
+    }
     .cards{
         display: block;
     }
@@ -395,6 +397,10 @@
         margin-top: 2vh;
         padding: 2vw;
     }
+    
+    .cardss{
+        display: block;
+    }
     .card11{
         margin-bottom: 1vh;
     }
@@ -410,10 +416,36 @@
         margin-top: 2vh;
         padding: 2vw;
     }
-    .cardss{
-        display: block;
+    .card21{
+        margin-bottom: 1vh;
     }
-    
+    .card21 h4{
+        font-size: 5vw;
+    }
+    .card21 p{
+        font-size: 4vw;
+    }
+    .card21 button{
+        font-size: 3.5vw;
+        width: 28vw;
+        margin-top: 2vh;
+        padding: 2vw;
+    }
+    .card31{
+        margin-bottom: 1vh;
+    }
+    .card31 h4{
+        font-size: 5vw;
+    }
+    .card31 p{
+        font-size: 4vw;
+    }
+    .card31 button{
+        font-size: 3.5vw;
+        width: 28vw;
+        margin-top: 2vh;
+        padding: 2vw;
+    }
 }
 
 

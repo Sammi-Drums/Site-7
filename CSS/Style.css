@@ -252,4 +252,20 @@
 .card31 p{
     text-align: justify;
 }
-
+@media (max-width: 1024px) {
+    .topic h2{
+        font-size: 4vw;
+        margin-bottom: 1vh;
+    }
+    .card1 h4{
+        font-size: 3vw;
+    }
+    .card1 p{
+        font-size: 2vw;
+    }
+    .card1 button{
+        font-size: 2vw;
+        width: 13vw;
+        margin-top: 1vh;
+    }
+}

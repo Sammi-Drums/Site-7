@@ -2,6 +2,18 @@
 *{
     margin: 0;
 }
+
+.NavBar{
+    display: flex;
+    flex: 100%;
+    background-image: url(../Images/stair-case-foyer-1646841.jpg);
+    background-position: center;
+    height: 400px;
+    /* background-color: black; */
+    border: 0px solid black;
+    box-shadow: 4px 4px 52px 6px orange;
+
+}
 .logo h1{
     flex: 30%;
     margin-top: -1%;
@@ -18,16 +30,6 @@
 .logo h1:hover{
     /* background-image: linear-gradient(to right, black, orange,black); */
     /* width: 12%; */
-}
-.NavBar{
-    display: flex;
-    background-image: url(../Images/stair-case-foyer-1646841.jpg);
-    background-position: center;
-    height: 400px;
-    /* background-color: black; */
-    border: 0px solid black;
-    box-shadow: 4px 4px 52px 6px orange;
-
 }
 .headright{
     display: flex;
@@ -142,3 +144,36 @@ h3:hover{
 }
 .FasIcons p:hover{
     color: black;
+}
+
+@media (max-width: 1024px) {
+    .NavBar{
+        display: flex;
+        flex: 100%;
+        margin-top: -2vh;
+    }
+
+   .logo h1{
+        font-size: 3vw;
+        margin-left: 2vw;
+        flex: 30%;
+        margin-top: 1vh;
+   }
+   .headright{
+       flex: 70%;
+       margin-left: 43vw;
+       margin-top: -3.5vh;
+
+   }
+   .headright li a{
+       font-size: 2.8vw;
+
+   }
+   .res p{
+       font-size: 2vw;
+   }
+   
+    
+  
+    
+}

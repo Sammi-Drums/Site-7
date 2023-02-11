@@ -28,9 +28,11 @@
 }
 .topic h2:hover{
     font-size: 25px;
+    color: orange;
 }
 .cards{
     display: flex;
+    flex: 100%;
     margin-top: 1%;
 }
 .card1{
@@ -143,6 +145,7 @@
 
 .cardss{
     display: flex;
+    flex: 100%;
     margin-top: 1%;
 }
 .card11{

@@ -21,6 +21,7 @@ body{
     border-radius: 25px;
     background-color: #FFF;
     /* width: 320px; */
+    margin:4vw;
 }
 .image-content,
 .card-content{

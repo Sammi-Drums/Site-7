@@ -1,6 +1,11 @@
 /* Creating a Slider  */
 @import url('https://fonts.googleapis.com/css?family=poppins:wght@300;400;500;600^display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppings', sans-serif;
+}
 body{
     min-height: 100vh;
     display: flex;
@@ -15,7 +20,7 @@ body{
     padding: 40px 0;
 }
 .slide-content{
-    margin: 0 90px;
+    margin: 0 40px;
     
     background-color: red;
     overflow: hidden;

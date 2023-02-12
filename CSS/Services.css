@@ -181,10 +181,11 @@ h3:hover{
 .card1 button{
     border-radius: 9px;
     width: 40%;
-    padding: 5%;
+    padding: 3%;
     background-color: orange;
     border-color: orange;
-   
+    margin-top: .5vh;
+    font-size: 1.7vw;
 }
 .card1 button:hover{
     background-color: white;
@@ -196,6 +197,7 @@ h3:hover{
      margin-bottom: 4%;
      text-transform: uppercase;
     font-weight: 800;
+    font-size: 2.5vw;
 }
 .card1 h4:hover{
     text-decoration: underline;
@@ -203,6 +205,10 @@ h3:hover{
 }
 .card1 p{
     text-align: justify;
+}
+.card1 img{
+    border-radius: 50vw;
+    width: 100%;
 }
 .card2{
     flex: 33.3%;
@@ -216,10 +222,11 @@ h3:hover{
 .card2 button{
     border-radius: 9px;
     width: 40%;
-    padding: 5%;
+    padding: 3%;
     background-color: orange;
     border-color: orange;
-    margin-top: 2.2vh;
+    margin-top: 2.8vh;
+    font-size: 1.7vw;
 }
 .card2 button:hover{
     background-color: white;
@@ -227,10 +234,11 @@ h3:hover{
 } 
 .card2 h4{
     text-align: center;
-    margin-top: 3%;
+    margin-top: 4.7vh;
     margin-bottom: 4%;
     text-transform: uppercase;
     font-weight: 800;
+    font-size: 2.5vw;
 }
 .card2 h4:hover{
     text-decoration: underline;
@@ -238,6 +246,10 @@ h3:hover{
 }
 .card2 p{
     text-align: justify;
+}
+.card2 img{
+    border-radius: 50vw;
+    width: 100%;
 }
 .card3{
     border: 1px solid orange;
@@ -250,11 +262,11 @@ h3:hover{
 .card3 button{
     border-radius: 9px;
     width: 40%;
-    padding: 5%;
+    padding: 3%;
     background-color: orange;
     border-color: orange;
-    margin-top: 1vh;
-   
+    margin-top: 1.5vh;
+    font-size: 1.7vw;
 }
 .card3 button:hover{
     background-color: white;
@@ -262,10 +274,11 @@ h3:hover{
 } 
 .card3 h4{
     text-align: center;
-    margin-top: 3%;
+    margin-top: 4vh;
     margin-bottom: 4%;
     text-transform: uppercase;
     font-weight: 800;
+    font-size: 2.5vw;
 }
 .card3 h4:hover{
     text-decoration: underline;
@@ -273,6 +286,10 @@ h3:hover{
 }
 .card3 p{
     text-align: justify;
+}
+.card3 img{
+    border-radius: 50vw;
+    width: 100%;
 }
 /* Adding Media Queries for responsiveness */
 @media (max-width: 1024px) {

@@ -2,6 +2,10 @@ var swiper = new Swiper(".slide-content", {
     slidesPerView: 3,
     spaceBetween: 25,
     centerSlide: 'true',
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
     loop: true,
     centerSlide: 'true',
     fade: 'true',
@@ -15,7 +19,8 @@ var swiper = new Swiper(".slide-content", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-    breakpoints:{
+     
+    breakpoints: {
         0: {
             slidesPerView: 1,
         },

@@ -33,7 +33,7 @@ body{
     border-radius: 25px;
     background-color: #FFF;
     /* width: 320px; */
-    margin: 2vw ;
+    margin-bottom: 4vw;
 }
 .image-content,
 .card-content{
@@ -116,13 +116,13 @@ body{
 }
 
 .swiper-navBtn{
-    /* color:blue; */
-    color: rgba(247, 125, 44, 0.685);
+    
+    color: #f77d2caf;
     transition: color 0.3s ease;
 }
-.swiper-navBtn:hover{
-    /* color: #4070F4; */
-    color: rgba(233, 100, 12, 0.925);
+.swiper-navBtn:hover{ 
+    
+    color: #e9640cec;
 }
 .swiper-navBtn::before,
 .swiper-navBtn::after{
@@ -135,13 +135,20 @@ body{
     left: 0;
 }
 .swiper-pagination-bullet{
-    background-color: rgba(247, 125, 44, 0.685);
+    background-color: #f77d2caf;
     opacity: 1;
 }
 .swiper-pagination-bullet-active{
-    background-color: rgba(233, 100, 12, 0.925);
+    background-color: #e9640cec;
 }
-
+@media screen and (max-width: 768px) {
+    .swiper-navBtn{
+        display: none;
+    }
+    .slider-content{
+        margin: 0 0px;
+    }
+}
 
 
 

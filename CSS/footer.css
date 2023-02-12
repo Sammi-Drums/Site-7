@@ -76,6 +76,14 @@
     margin-top: .5%;
     margin-bottom: 3%;
 }
+.btn button a{
+    text-decoration: none;
+    color: white;
+}
+.btn button a:hover{
+    
+    color: orange;
+}
 .btn button{
     background-color: transparent;
     color: orange;

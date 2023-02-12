@@ -205,6 +205,8 @@ h3:hover{
 }
 .card1 p{
     text-align: justify;
+    font-size: 1.6vw;
+    
 }
 .card1 img{
     border-radius: 50vw;
@@ -246,6 +248,7 @@ h3:hover{
 }
 .card2 p{
     text-align: justify;
+    font-size: 1.6vw;
 }
 .card2 img{
     border-radius: 50vw;
@@ -286,6 +289,7 @@ h3:hover{
 }
 .card3 p{
     text-align: justify;
+    font-size: 1.6vw;
 }
 .card3 img{
     border-radius: 50vw;

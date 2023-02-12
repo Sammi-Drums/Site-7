@@ -23,6 +23,7 @@
     margin-top: -2%;
     margin-left: -50%;
 }
+/* $%^&*()(*&^%$ */
 .topic h2{
     text-transform: uppercase;
 }
@@ -47,10 +48,10 @@
 .card1 button{
     border-radius: 9px;
     width: 40%;
-    padding: 5%;
+    padding: 3%;
     background-color: orange;
     border-color: orange;
-   
+    font-size: 1.7vw;
 }
 .card1 button:hover{
     background-color: white;
@@ -62,6 +63,7 @@
      margin-bottom: 4%;
      text-transform: uppercase;
     font-weight: 800;
+    font-size: 2.5vw;
 }
 .card1 h4:hover{
     text-decoration: underline;
@@ -69,6 +71,7 @@
 }
 .card1 p{
     text-align: justify;
+    font-size: 1.7vw;
 }
 .card2{
     flex: 33.3%;
@@ -82,10 +85,11 @@
 .card2 button{
     border-radius: 9px;
     width: 40%;
-    padding: 5%;
+    padding: 3%;
     background-color: orange;
     border-color: orange;
     margin-top: .5vh;
+    font-size: 1.7vw;
 }
 .card2 button:hover{
     background-color: white;
@@ -97,6 +101,7 @@
     margin-bottom: 4%;
     text-transform: uppercase;
     font-weight: 800;
+    font-size: 2.5vw;
 }
 .card2 h4:hover{
     text-decoration: underline;
@@ -104,6 +109,7 @@
 }
 .card2 p{
     text-align: justify;
+    font-size: 1.7vw;
 }
 .card3{
     border: 1px solid orange;
@@ -116,10 +122,11 @@
 .card3 button{
     border-radius: 9px;
     width: 40%;
-    padding: 5%;
+    padding: 3%;
     background-color: orange;
     border-color: orange;
     margin-top: 1vh;
+    font-size: 1.7vw;
    
 }
 .card3 button:hover{
@@ -132,6 +139,7 @@
     margin-bottom: 4%;
     text-transform: uppercase;
     font-weight: 800;
+    font-size: 2.5vw;
 }
 .card3 h4:hover{
     text-decoration: underline;
@@ -139,6 +147,7 @@
 }
 .card3 p{
     text-align: justify;
+    font-size: 1.7vw;
 }
 
 
@@ -161,9 +170,10 @@
 .card11 button{
     border-radius: 9px;
     width: 40%;
-    padding: 5%;
+    padding: 3%;
     background-color: orange;
     border-color: orange;
+    font-size: 1.7vw;
    
 }
 .card11 button:hover{
@@ -176,6 +186,7 @@
      margin-bottom: 4%;
      text-transform: uppercase;
     font-weight: 800;
+    font-size: 2.5vw;
 }
 .card11 h4:hover{
     text-decoration: underline;
@@ -183,6 +194,7 @@
 }
 .card11 p{
     text-align: justify;
+    font-size: 1.7vw;
 }
 .card21{
     flex: 33.3%;
@@ -196,10 +208,11 @@
 .card21 button{
     border-radius: 9px;
     width: 40%;
-    padding: 5%;
+    padding: 3%;
     background-color: orange;
     border-color: orange;
-    margin-top: 2vh;
+    margin-top: 2.5vh;
+    font-size: 1.7vw;
 }
 .card21 button:hover{
     background-color: white;
@@ -207,10 +220,11 @@
 } 
 .card21 h4{
     text-align: center;
-    margin-top: 3%;
+    margin-top: 6%;
     margin-bottom: 4%;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 1000;
+    font-size: 2vw;
 }
 .card21 h4:hover{
     text-decoration: underline;
@@ -218,6 +232,7 @@
 }
 .card21 p{
     text-align: justify;
+    font-size: 1.7vw;
 }
 .card31{
     border: 1px solid orange;
@@ -230,10 +245,11 @@
 .card31 button{
     border-radius: 9px;
     width: 40%;
-    padding: 5%;
+    padding: 3%;
     background-color: orange;
     border-color: orange;
-    margin-top: 2vh;
+    margin-top: 2.7vh;
+    font-size: 1.7vw;
 }
 .card31 button:hover{
     background-color: white;
@@ -245,6 +261,7 @@
     margin-bottom: 4%;
     text-transform: uppercase;
     font-weight: 800;
+    font-size: 2.5vw;
 }
 .card31 h4:hover{
     text-decoration: underline;
@@ -252,6 +269,7 @@
 }
 .card31 p{
     text-align: justify;
+    font-size: 1.7vw;
 }
 @media (max-width: 1024px) {
     .topic h2{

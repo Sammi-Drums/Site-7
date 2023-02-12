@@ -158,9 +158,10 @@ h3:hover{
 
 .topic h2{
     text-transform: uppercase;
+    font-size: 3.4vw;
 }
 .topic h2:hover{
-    font-size: 25px;
+    font-size: 3.5vw;
     color: orange;
 }
 .cards{

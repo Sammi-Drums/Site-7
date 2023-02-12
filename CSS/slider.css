@@ -115,12 +115,12 @@ body{
     background: rgba(247, 125, 44, 0.685);
 }
 
-.swiper-navBtn{
+.swiper .swiper-navBtn{
     
     color: #f77d2caf;
     transition: color 0.3s ease;
 }
-.swiper-navBtn:hover{ 
+.swiper .swiper-navBtn:hover{ 
     
     color: #e9640cec;
 }
@@ -134,13 +134,14 @@ body{
 .swiper-button-prev{
     left: 0;
 }
-.swiper-pagination-bullet{
-    background-color: #f77d2caf;
+.swiper .swiper-pagination-bullet{
+    background: #f77d2caf;
     opacity: 1;
 }
-.swiper-pagination-bullet-active{
-    background-color: #e9640cec;
+.swiper .swiper-pagination-bullet-active{
+    background: #e9640cec;
 }
+
 @media screen and (max-width: 768px) {
     .swiper-navBtn{
         display: none;

@@ -52,6 +52,7 @@
     background-color: orange;
     border-color: orange;
     font-size: 1.7vw;
+    margin-top: 3.4vh;
 }
 .card1 button:hover{
     background-color: white;
@@ -88,7 +89,7 @@
     padding: 3%;
     background-color: orange;
     border-color: orange;
-    margin-top: .5vh;
+    margin-top: 3.5vh;
     font-size: 1.7vw;
 }
 .card2 button:hover{

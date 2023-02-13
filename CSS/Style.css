@@ -52,21 +52,19 @@
     color: white;
 }
 .card1 button a:hover{
-    
     color: black;
-    
 }
 .card1 button{
     border-radius: 9px;
     width: 40%;
     padding: 3%;
-    background-color: rgb(247, 162, 153);
-    border-color: salmon;
+    background-image: linear-gradient(to left,  rgba(248, 137, 46, 0.541), rgba(197, 52, 178, 0.507));
+    border: 1px solid rgba(197, 52, 178, 0.384);
     font-size: 1.7vw;
     margin-top: 3.4vh;
 }
 .card1 button:hover{
-    background-color: rgba(255, 94, 77, 0.753);
+    background-color: rgba(248, 137, 46, 0.541);
     transition: all 0.3s ease;
 } 
 .card1 h4{
@@ -79,7 +77,7 @@
 }
 .card1 h4:hover{
     text-decoration: underline;
-    text-decoration-color: salmon;
+    text-decoration-color: rgba(248, 137, 46, 0.541);
 }
 .card1 p{
     text-align: justify;
@@ -108,14 +106,14 @@
     border-radius: 9px;
     width: 40%;
     padding: 3%;
-    background-color: orange;
-    border-color: orange;
-    margin-top: 3.5vh;
+    background-image: linear-gradient(to left,  rgba(248, 137, 46, 0.541), rgba(197, 52, 178, 0.507));
+    border: 1px solid rgba(197, 52, 178, 0.384);
+    margin-top: 4.2vh;
     font-size: 1.7vw;
 }
 .card2 button:hover{
-    background-color: white;
-    color: orange;
+    background-color: rgba(248, 137, 46, 0.541);
+    transition: all 0.3s ease;
 } 
 .card2 h4{
     text-align: center;
@@ -127,7 +125,7 @@
 }
 .card2 h4:hover{
     text-decoration: underline;
-    text-decoration-color: orange;
+    text-decoration-color: rgba(248, 137, 46, 0.541);
 }
 .card2 p{
     text-align: justify;
@@ -155,15 +153,15 @@
     border-radius: 9px;
     width: 40%;
     padding: 3%;
-    background-color: orange;
-    border-color: orange;
-    margin-top: 1vh;
+    background-image: linear-gradient(to left,  rgba(248, 137, 46, 0.541), rgba(197, 52, 178, 0.507));
+    border: 1px solid rgba(197, 52, 178, 0.384);
+    margin-top: 1.8vh;
     font-size: 1.7vw;
    
 }
 .card3 button:hover{
-    background-color: white;
-    color: orange;
+    background-color: rgba(248, 137, 46, 0.541);
+    transition: all 0.3s ease;
 } 
 .card3 h4{
     text-align: center;
@@ -175,7 +173,7 @@
 }
 .card3 h4:hover{
     text-decoration: underline;
-    text-decoration-color: orange;
+    text-decoration-color: rgba(248, 137, 46, 0.541);
 }
 .card3 p{
     text-align: justify;
@@ -213,14 +211,14 @@
     border-radius: 9px;
     width: 40%;
     padding: 3%;
-    background-color: orange;
-    border-color: orange;
+    background-image: linear-gradient(to left,  rgba(248, 137, 46, 0.541), rgba(197, 52, 178, 0.507));
+    border: 1px solid rgba(197, 52, 178, 0.384);
     font-size: 1.7vw;
    
 }
 .card11 button:hover{
-    background-color: white;
-    color: orange;
+    background-color: rgba(248, 137, 46, 0.541);
+    transition: all 0.3s ease;
 } 
 .card11 h4{
     text-align: center;
@@ -232,7 +230,7 @@
 }
 .card11 h4:hover{
     text-decoration: underline;
-    text-decoration-color: orange;
+    text-decoration-color: rgba(248, 137, 46, 0.541);
 }
 .card11 p{
     text-align: justify;
@@ -261,14 +259,14 @@
     border-radius: 9px;
     width: 40%;
     padding: 3%;
-    background-color: orange;
-    border-color: orange;
+    background-image: linear-gradient(to left,  rgba(248, 137, 46, 0.541), rgba(197, 52, 178, 0.507));
+    border: 1px solid rgba(197, 52, 178, 0.384);
     margin-top: 2.5vh;
     font-size: 1.7vw;
 }
 .card21 button:hover{
-    background-color: white;
-    color: orange;
+    background-color: rgba(248, 137, 46, 0.541);
+    transition: all 0.3s ease;
 } 
 .card21 h4{
     text-align: center;
@@ -280,7 +278,7 @@
 }
 .card21 h4:hover{
     text-decoration: underline;
-    text-decoration-color: orange;
+    text-decoration-color: rgba(248, 137, 46, 0.541);
 }
 .card21 p{
     text-align: justify;
@@ -308,14 +306,14 @@
     border-radius: 9px;
     width: 40%;
     padding: 3%;
-    background-color: orange;
-    border-color: orange;
+    background-image: linear-gradient(to left,  rgba(248, 137, 46, 0.541), rgba(197, 52, 178, 0.507));
+    border: 1px solid rgba(197, 52, 178, 0.384);
     margin-top: 2.7vh;
     font-size: 1.7vw;
 }
 .card31 button:hover{
-    background-color: white;
-    color: orange;
+    background-color: rgba(248, 137, 46, 0.541);
+    transition: all 0.3s ease;
 } 
 .card31 h4{
     text-align: center;
@@ -327,7 +325,7 @@
 }
 .card31 h4:hover{
     text-decoration: underline;
-    text-decoration-color: orange;
+    text-decoration-color: rgba(248, 137, 46, 0.541);
 }
 .card31 p{
     text-align: justify;

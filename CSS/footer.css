@@ -11,7 +11,7 @@
     height: 400px;
     /* background-color: black; */
     border: 0px solid black;
-    box-shadow: 2px 2px 52px 1px salmon;
+    box-shadow: 2px 2px 52px 1px rgba(248, 137, 46, 0.541);
 
 }
 .logo h1{
@@ -25,7 +25,7 @@
 .logo h5{
     margin: -0.4%;
     margin-left: 2%;
-    color: salmon;
+    color: rgba(255, 45, 227, 0.904);
 }
 .logo h1:hover{
     /* background-image: linear-gradient(to right, black, orange,black); */
@@ -50,7 +50,7 @@
 }
 .headright li a:hover{
     text-decoration: underline;
-    color: salmon;
+    color: rgba(255, 45, 227, 0.904);
     font-size: 23px;
 }
 .overlay{
@@ -78,16 +78,18 @@
 }
 .btn button a{
     text-decoration: none;
-    color: salmon;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgba(255, 45, 227, 0.904);
 }
 .btn button a:hover{
     
-    color: salmon;
+    color: rgba(255, 45, 227, 0.904);
     
 }
 .btn button{
     background-color: transparent;
-    border: 3px solid salmon;
+    border: 3px solid rgba(255, 45, 227, 0.904);
     padding: 8px;
     padding-left: 15px;
     padding-right: 15px;
@@ -108,7 +110,7 @@
     background-image: url(https:\2f\2f cc-prod.scene7.com\2fis\2fimage\2f CCProdAuthor\2f background-uk-education-1920x880?$png$\26jpegSize=200\26wid=1199); 
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom right center;
+    background-position: bottom center;
     border: 0;
 }
 .footerSection{
@@ -121,7 +123,7 @@
     background-image: url(https:\2f\2f cc-prod.scene7.com\2fis\2fimage\2f CCProdAuthor\2f background-uk-education-1920x880?$png$\26jpegSize=200\26wid=1199); 
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom right center;
+    background-position: bottom center;
     border: 0;
     
 }

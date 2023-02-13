@@ -107,7 +107,7 @@
 
 /* The footer Section */
 .foo{
-    background-image: url(https:\2f\2f cc-prod.scene7.com\2fis\2fimage\2f CCProdAuthor\2f background-uk-education-1920x880?$png$\26jpegSize=200\26wid=1199); 
+    background-image: linear-gradient(to top left, rgba(233, 100, 12, 0.925), rgb(247, 160, 175), violet);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
@@ -120,7 +120,7 @@
     border: 1px solid black;
     margin-top: 5%;
     padding: 5%;
-    background-image: url(https:\2f\2f cc-prod.scene7.com\2fis\2fimage\2f CCProdAuthor\2f background-uk-education-1920x880?$png$\26jpegSize=200\26wid=1199); 
+    background-image: linear-gradient(to top left, rgba(233, 100, 12, 0.925), rgb(247, 160, 175), violet);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;

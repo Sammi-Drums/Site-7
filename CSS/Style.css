@@ -27,6 +27,11 @@
 .topic h2{
     text-transform: uppercase;
     font-size: 3vw;
+    background-image: linear-gradient(to top left, rgba(233, 100, 12, 0.925), rgb(247, 160, 175), violet);
+    margin-left: 30vw;
+    margin-right: 30vw;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 .topic h2:hover{
     font-size: 3.1vw;

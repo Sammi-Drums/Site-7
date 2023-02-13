@@ -25,7 +25,7 @@
 .logo h5{
     margin: -0.4%;
     margin-left: 2%;
-    color: orange;
+    color: rgb(0, 0, 0);
 }
 .logo h1:hover{
     /* background-image: linear-gradient(to right, black, orange,black); */
@@ -50,7 +50,7 @@
 }
 .headright li a:hover{
     text-decoration: underline;
-    color: orange;
+    color: rgb(0, 0, 0);
     font-size: 23px;
 }
 .o1verlay{
@@ -100,6 +100,13 @@
 }
 
 /* The footer Section */
+.foo{
+    background-image: linear-gradient(to top left, rgba(233, 100, 12, 0.925), rgb(247, 160, 175), violet);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    border: 0;
+}
 .footerSection{
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -107,9 +114,7 @@
     border: 1px solid black;
     margin-top: 5%;
     padding: 5%;
-    /* background-image:  */
-    background-image: linear-gradient(to right, black, orange,black);
-    /* linear-gradient(to right, rgba(0, 0, 0, 0.925), rgba(255, 166, 0, 0.822)); */
+    background-image: linear-gradient(to top left, rgba(233, 100, 12, 0.925), rgb(247, 160, 175), violet);
     border: 0;
 }
 .Samm{
@@ -122,13 +127,14 @@
     color: black;
 }
 h3{
-    color: orange;
+    color: black;
     padding: 2%;
     padding-left: 0;
+    font-size: 2.3vw;
 }
 h3:hover{
     color: black;
-    font-size: 1.6vw;
+    font-size: 2.4vw;
 }
 .Samm p{
     color: white;
@@ -190,7 +196,7 @@ h3:hover{
     /* background-color: salmon; */
     background-image: linear-gradient(to top left, rgba(233, 100, 12, 0.925), rgb(247, 160, 175), violet);
     border-color: salmon;
-    margin-top: 3.4vh;
+    margin-top: 5vh;
     font-size: 1.7vw;
 }
 .card1 button:hover{
@@ -235,7 +241,7 @@ h3:hover{
     padding: 3%;
     background-image: linear-gradient(to top left, rgba(233, 100, 12, 0.925), rgb(247, 160, 175), violet);
     border-color: salmon;
-    margin-top: 6.3vh;
+    margin-top: 5.6vh;
     font-size: 1.7vw;
 }
 .card2 button:hover{
@@ -278,7 +284,7 @@ h3:hover{
     padding: 3%;
     background-image: linear-gradient(to top left, rgba(233, 100, 12, 0.925), rgb(247, 160, 175), violet);
     border-color: salmon;
-    margin-top: 1.5vh;
+    margin-top: 3.6vh;
     font-size: 1.7vw;
 }
 .card3 button:hover{

@@ -187,14 +187,16 @@ h3:hover{
     border-radius: 9px;
     width: 40%;
     padding: 3%;
-    background-color: orange;
-    border-color: orange;
+    /* background-color: salmon; */
+    background-image: linear-gradient(to top left, rgba(233, 100, 12, 0.925), rgb(247, 160, 175), violet);
+    border-color: salmon;
     margin-top: .5vh;
     font-size: 1.7vw;
 }
 .card1 button:hover{
+    background-image: none;
     background-color: white;
-    color: orange;
+    color: salmon;
 } 
 .card1 h4{
     text-align: center;
@@ -219,25 +221,27 @@ h3:hover{
 }
 .card2{
     flex: 33.3%;
-    border: 1px solid orange;
+    border: 0px solid salmon;
+    box-shadow:  -0.5px 1px 7px 1px rgba(255, 168, 158, 0.719);
     padding: 15px;
     border-bottom: 44%;
     margin-right: 1vw;
     border-radius: 1vw;
-    box-shadow: inset 2px 4px 20px 1px orange;
+
 }
 .card2 button{
     border-radius: 9px;
     width: 40%;
     padding: 3%;
-    background-color: orange;
-    border-color: orange;
+    background-image: linear-gradient(to top left, rgba(233, 100, 12, 0.925), rgb(247, 160, 175), violet);
+    border-color: salmon;
     margin-top: 2.8vh;
     font-size: 1.7vw;
 }
 .card2 button:hover{
+    background-image: none;
     background-color: white;
-    color: orange;
+    color: salmon;
 } 
 .card2 h4{
     text-align: center;
@@ -260,25 +264,27 @@ h3:hover{
     width: 100%;
 }
 .card3{
-    border: 1px solid orange;
+    border: 0px solid salmon;
+    box-shadow:  -0.5px 1px 7px 1px rgba(255, 168, 158, 0.719);
     padding: 15px;
     border-bottom: 44%;
     flex: 33.3%;
     border-radius: 1vw;
-    box-shadow: inset 2px 4px 20px 1px orange;
+
 }
 .card3 button{
     border-radius: 9px;
     width: 40%;
     padding: 3%;
-    background-color: orange;
-    border-color: orange;
+    background-image: linear-gradient(to top left, rgba(233, 100, 12, 0.925), rgb(247, 160, 175), violet);
+    border-color: salmon;
     margin-top: 1.5vh;
     font-size: 1.7vw;
 }
 .card3 button:hover{
+    background-image: none;
     background-color: white;
-    color: orange;
+    color: salmon;
 } 
 .card3 h4{
     text-align: center;

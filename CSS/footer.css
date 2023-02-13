@@ -11,7 +11,7 @@
     height: 400px;
     /* background-color: black; */
     border: 0px solid black;
-    box-shadow: 4px 4px 52px 6px orange;
+    box-shadow: 2px 2px 52px 1px salmon;
 
 }
 .logo h1{
@@ -25,7 +25,7 @@
 .logo h5{
     margin: -0.4%;
     margin-left: 2%;
-    color: orange;
+    color: salmon;
 }
 .logo h1:hover{
     /* background-image: linear-gradient(to right, black, orange,black); */
@@ -50,7 +50,7 @@
 }
 .headright li a:hover{
     text-decoration: underline;
-    color: orange;
+    color: salmon;
     font-size: 23px;
 }
 .overlay{
@@ -78,16 +78,16 @@
 }
 .btn button a{
     text-decoration: none;
-    color: white;
+    color: salmon;
 }
 .btn button a:hover{
     
-    color: orange;
+    color: salmon;
+    
 }
 .btn button{
     background-color: transparent;
-    color: orange;
-    border: 1px solid orange;
+    border: 3px solid salmon;
     padding: 8px;
     padding-left: 15px;
     padding-right: 15px;
@@ -95,7 +95,6 @@
 }
 .btn button:hover{
     background-color: white;
-    color: orange;
 }
 .welcome h1:hover{
     font-size: 43px;

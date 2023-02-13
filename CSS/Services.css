@@ -190,7 +190,7 @@ h3:hover{
     /* background-color: salmon; */
     background-image: linear-gradient(to top left, rgba(233, 100, 12, 0.925), rgb(247, 160, 175), violet);
     border-color: salmon;
-    margin-top: .5vh;
+    margin-top: 3.4vh;
     font-size: 1.7vw;
 }
 .card1 button:hover{
@@ -208,7 +208,7 @@ h3:hover{
 }
 .card1 h4:hover{
     text-decoration: underline;
-    text-decoration-color: orange;
+    text-decoration-color: salmon;
 }
 .card1 p{
     text-align: justify;
@@ -235,7 +235,7 @@ h3:hover{
     padding: 3%;
     background-image: linear-gradient(to top left, rgba(233, 100, 12, 0.925), rgb(247, 160, 175), violet);
     border-color: salmon;
-    margin-top: 2.8vh;
+    margin-top: 6.3vh;
     font-size: 1.7vw;
 }
 .card2 button:hover{

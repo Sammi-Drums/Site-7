@@ -58,7 +58,7 @@
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: left center;
     width: 100%;
     /* z-index: 0; */
 }
@@ -208,7 +208,7 @@ h3:hover{
 }
 .card1 h4:hover{
     text-decoration: underline;
-    text-decoration-color: salmon;
+    text-decoration-color: rgba(255, 135, 122, 0.932);
 }
 .card1 p{
     text-align: justify;
@@ -253,7 +253,7 @@ h3:hover{
 }
 .card2 h4:hover{
     text-decoration: underline;
-    text-decoration-color: orange;
+    text-decoration-color: rgba(255, 135, 122, 0.932);
 }
 .card2 p{
     text-align: justify;
@@ -296,7 +296,7 @@ h3:hover{
 }
 .card3 h4:hover{
     text-decoration: underline;
-    text-decoration-color: orange;
+    text-decoration-color: rgba(255, 135, 122, 0.932);
 }
 .card3 p{
     text-align: justify;

@@ -495,14 +495,26 @@ h3:hover{
     .footerSection{
         display: block;
     }
+    .Samm h3{
+        font-size: 4.7vw;
+    }
     .Production{
         text-align: center;
+    }
+    .Production h3{
+        font-size: 4.7vw;
     }
     .LINKs{
         text-align: right;
     }
+    .LINKs h3{
+        font-size: 4.7vw;
+    }
     .FasIcons{
         margin-top: -15.9vh;
+    }
+    .FasIcons h3{
+        font-size: 4.7vw;
     }
 
     /* Working on the header now */
@@ -524,6 +536,16 @@ h3:hover{
     }
     .res p{
         font-size: 3vw;
+    }
+    .btn button{
+        margin: 2vw;
+        padding: 1vw;
+    }
+    /* Working on the body elements */
+    .topic h2{
+        font-size: 6vw;
+        margin-left: 3vw;
+        margin-right: 3vw;
     }
 }
 @media (max-width: 320px) {

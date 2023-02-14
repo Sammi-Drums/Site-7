@@ -239,13 +239,20 @@ h3:hover{
     /* working on toggler now */
     .PhoneNav{
         display: block;
+        background-image: linear-gradient(to top left, rgba(233, 100, 12, 0.925), rgb(247, 160, 175), violet);
+        
     }
     .PhoneNav li{
         list-style: none;
+        padding: 4vw;
+        text-align: center;
     }
     .PhoneNav li a{
         text-decoration: none;
         color: white;
+        font-size: 5vw;
+        text-transform: uppercase;
+        letter-spacing: .4vw;
     }
     /* Working on the footer for this display */
     .footerSection{

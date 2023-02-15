@@ -90,7 +90,7 @@ body{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border: 6px solid pink;
+    /* border: 6px solid pink; */
 }
 .name{
     font-size: 20px;

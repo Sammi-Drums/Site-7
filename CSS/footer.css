@@ -214,6 +214,7 @@ h3:hover{
 @media (max-width: 768px) {
     .NavBody{
         margin-top: -20vh;
+        
     }
     .topic h2{
         margin-top: 12vh;
@@ -237,6 +238,16 @@ h3:hover{
 }
 @media (max-width: 425px) {
     /* working on toggler now */
+    .overlay{
+        background-color: rgba(0, 0, 0, 0);
+        height: 400px;
+        width: 100%;
+        /* z-index: 0; */
+    }
+    .NavBar{
+        /* background-image: none; */
+        background-image: linear-gradient(to top left, rgba(233, 100, 12, 0.925), rgb(247, 160, 175), violet);
+    }
     .PhoneNav{
         display: block;
         background-image: linear-gradient(to top left, rgba(233, 100, 12, 0.925), rgb(247, 160, 175), violet);
@@ -260,22 +271,12 @@ h3:hover{
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
     }
+    .
 
 
 
 
-    .headright{
-        display: block;
-    }
-    .headright.active .bar:nth-child(2){
-        opacity: 0;
-    }
-    .headright.active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    }
-    .headright.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-    }
+
 
 
 
@@ -322,7 +323,7 @@ h3:hover{
 
     
     .headright{
-        /* display: none; */
+        display: none;
     }
     .NavBody{
         /* margin-top: -20vh; */
@@ -351,7 +352,7 @@ h3:hover{
 }
 @media (max-width: 320px) {
     .NavBar{
-        margin-top: 0vh;
+        /* margin-top: 0vh; */
     }
     .welcome h1{
         font-size: 7vw;

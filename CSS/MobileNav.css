@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.header{
+header{
     background-color: black;
 }
 li{
@@ -19,7 +19,8 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 60px;
+    /* gap: 60px; */
+    padding: 0 24px;
 }
 .nav-menu{
     display: flex;
@@ -28,7 +29,7 @@ a{
     gap: 60px;
 }
 .nav-branding{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .nav-link{
     transition: all 0.7s ease;
@@ -43,7 +44,7 @@ a{
 }
 .bar{
     display: block;
-    width: 100%;
+    width: 25px;
     height: 3px;
     background-color: white;
     margin: 5px auto;
@@ -54,6 +55,32 @@ a{
 @media (max-width:452) {
     .humburger{
         display: block;
+    }
+    .humburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .humburger.active .bar:nth-child(2){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .humburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nav-item{
+        margin: 16px 0;
+    }
+    .nav-menu.active{
+        left: 0;
     }
 }
 

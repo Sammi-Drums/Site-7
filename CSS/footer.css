@@ -3,7 +3,7 @@
     margin: 0;
 }
 .PhoneNav{
-    display: none;
+    /* display: none; */
 }
 .phnbtn{
     display: flex;
@@ -43,6 +43,7 @@
 .bar::after{
     transform: translateY(16px);
 }
+
 
 .NavBar{
     display: flex;
@@ -274,18 +275,13 @@ h3:hover{
 }
 @media (max-width: 425px) {
     /* working on toggler now */
-    .overlay{
-        background-color: rgba(0, 0, 0, 0);
-        height: 400px;
-        width: 100%;
-        /* z-index: 0; */
-    }
+    
     .NavBar{
         /* background-image: none; */
-        background-image: linear-gradient(to top left, rgba(233, 100, 12, 0.925), rgb(247, 160, 175), violet);
+        /* background-image: linear-gradient(to top left, rgba(233, 100, 12, 0.925), rgb(247, 160, 175), violet); */
     }
     .PhoneNav{
-        display: block;
+        /* display: block; */
         background-image: linear-gradient(to top left, rgba(233, 100, 12, 0.925), rgb(247, 160, 175), violet);
         
     }
@@ -307,7 +303,7 @@ h3:hover{
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
     }
-    .
+    
 
 
 

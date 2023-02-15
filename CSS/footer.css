@@ -246,6 +246,8 @@ h3:hover{
         list-style: none;
         padding: 4vw;
         text-align: center;
+        background-color: white;
+        margin-bottom: 7px;
     }
     .PhoneNav li a{
         text-decoration: none;
@@ -253,7 +255,39 @@ h3:hover{
         font-size: 5vw;
         text-transform: uppercase;
         letter-spacing: .4vw;
+        font-weight: 800;
+        background-image: linear-gradient(to top left, rgba(233, 100, 12, 0.925) 25%, rgb(247, 160, 175), rgba(233, 100, 12, 0.925), violet 50%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
     }
+
+
+
+
+    .headright{
+        display: block;
+    }
+    .headright.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .headright.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+
+
+
+
+
+
+
+
+     /* .phnbtn{
+        display: block;
+        color: red;
+        background-image: linear-gradient(to top left, rgba(233, 100, 12
+     } */
+
     /* Working on the footer for this display */
     .footerSection{
         display: block;
@@ -284,7 +318,7 @@ h3:hover{
 
     
     .headright{
-        display: none;
+        /* display: none; */
     }
     .NavBody{
         /* margin-top: -20vh; */
